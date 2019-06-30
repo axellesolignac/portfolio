@@ -1,0 +1,124 @@
+body {
+    font-family: serif;
+    max-width: 100vw;
+    color: #fff;
+}
+
+
+/*##### HOMEPAGE #####*/
+#landing {
+    height: 100vh;
+    background: url(Fond_accueil.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+#landing h5{
+    text-align: center;
+}
+
+/*##### END HOMEPAGE #####*/
+
+
+/*##### NAME EFFECT #####*/
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.svg-wrapper {
+    position: relative;
+    top: 25%;
+    transform: translateY(-0%);
+    margin: 0 auto;
+    width: 320px;
+    max-height: 60px;
+    cursor: default;
+}
+
+.shape {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+    fill: transparent;
+    stroke: #F41B5E;
+    border-bottom: 5px solid black;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+.text {
+    font-family: serif;
+    font-size: 25px;
+    letter-spacing: 8px;
+    color: #fff;
+    top: -48px;
+    position: relative;
+    text-align: center;
+}
+
+.svg-wrapper:hover .shape {
+    stroke-width: 2px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760;
+}
+
+/*##### END NAME EFFECT #####*/
+
+/* Bouton */
+
+button {
+    -webkit-box-shadow: 0 0 0 2px white;
+            box-shadow: 0 0 0 2px white;
+    background: rgba(0, 0, 0, 0.4);
+    display: block;
+    padding: 10px 8px;
+    border: none;
+    color: white;
+    max-width: 200px;
+    font-size: 16px;
+    text-align: center;
+    height: 50px; /* Changer les dimensions du bouton*/
+    width: 150px; /* Changer les dimensions du bouton*/
+    position: relative;	
+    margin: auto;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    overflow: hidden;
+    z-index: 1;
+    transition: all .4s cubic-bezier(0.54, 0.09, 0.29, 0.9);
+  -webkit-transition: all .4s cubic-bezier(0.54, 0.09, 0.29, 0.9);
+  -moz-transition: all .4s cubic-bezier(0.54, 0.09, 0.29, 0.9);
+  -ms-transition: all .4s cubic-bezier(0.54, 0.09, 0.29, 0.9);
+  -o-transition: all .4s cubic-bezier(0.54, 0.09, 0.29, 0.9);
+  
+}
+button:hover, button:focus{
+
+    letter-spacing: 1.4px;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.59);
+}
+button span {
+    position: absolute;
+    display: block;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 0%;
+    height: 0%;
+    border-radius: 50%;
+    background: #F41B5E;
+    transition: width .4s cubic-bezier(0.54, 0.09, 0.29, 0.9), height .4s cubic-bezier(0.54, 0.09, 0.29, 0.9);
+   -webkit-transition: width .4s cubic-bezier(0.54, 0.09, 0.29, 0.9), height .4s cubic-bezier(0.54, 0.09, 0.29, 0.9);
+   -moz-transition: width .4s cubic-bezier(0.54, 0.09, 0.29, 0.9), height .4s cubic-bezier(0.54, 0.09, 0.29, 0.9); 
+   -ms-transition: width .4s cubic-bezier(0.54, 0.09, 0.29, 0.9), height .4s cubic-bezier(0.54, 0.09, 0.29, 0.9);
+  -o-transition: width .4s cubic-bezier(0.54, 0.09, 0.29, 0.9), height .4s cubic-bezier(0.54, 0.09, 0.29, 0.9);
+    z-index: -1
+}
+button:hover span, button:focus span {
+    width: 400%;
+    height: 400%;
+}
+/* Fin Bouton */
