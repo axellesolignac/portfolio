@@ -37,7 +37,7 @@ $reponse = $bdd->query('SELECT * FROM competence;');
                         <li class="navbar__link after-transform"><a href="index.html">Accueil</a></li>
                         <li class="navbar__link after-transform"><a class="active" href="A_propos.html">A Propos</a></li>
                         <li class="navbar__link after-transform"><a href="Projets.html">Projets</a></li>
-                        <li class="navbar__link after-transform"><a href="Blog.html">Blog</a></li>
+                        <li class="navbar__link after-transform"><a href="blog.php">Blog</a></li>
                         <li class="navbar__link after-transform"><a href="Contact.html">Contact</a></li>
                     </ul>
                 </nav>
@@ -48,7 +48,7 @@ $reponse = $bdd->query('SELECT * FROM competence;');
                 <li class="navbar-responsive__link after-transform"><a href="index.html">Accueil</a></li>
                 <li class="navbar-responsive__link after-transform"><a class="active" href="A_propos.html">A Propos</a></li>
                 <li class="navbar-responsive__link after-transform"><a href="Projets.html">Projets</a></li>
-                <li class="navbar-responsive__link after-transform"><a href="Blog.html">Blog</a></li>
+                <li class="navbar-responsive__link after-transform"><a href="blog.php">Blog</a></li>
                 <li class="navbar-responsive__link after-transform"><a href="Contact.html">Contact</a></li>
             </ul>
         </div>
